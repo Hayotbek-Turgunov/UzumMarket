@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* grid-container  */
+/* colum-gap - ustinlarni orasidan joy tashlab beradi */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 150px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* row-gap - qatorlar orasidan joy tashlaydi */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 150px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* gap - ustun va qatorlardan bir hil joy tashlab beradi */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* grid-template-rows */
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* /* grid-template-columns */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* justify-content */
+/* .grid-container {
+  display: grid;
+  justify-content: flex-start;
+  grid-template-columns: 50px 50px 50px;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* align-content */
+/* .grid-container {
+  display: grid;
+  height: 400px;
+  justify-content: center;
+  align-content: space-evenly;
+  grid-template-columns: 100px 100px 100px;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* grid-items */
+/* grid-column */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item5 {
+  grid-column: 1/6;
+} */
+
+/* grid-row */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 40px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: dodgerblue;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item1 {
+  grid-row: 1/6;
+}
